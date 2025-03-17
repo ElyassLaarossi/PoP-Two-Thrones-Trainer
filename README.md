@@ -4,10 +4,7 @@ PRINCE OF PERSIA: THE TWO THRONES - TRAINER
 This is a game trainer for Prince of Persia: The Two Thrones, created using Python and Cheat Engine.  
 It allows players to modify in-game memory to enable cheats such as:  
 - Infinite Health  
-- Unlimited Sand  
-- One-Hit Kills  
-- Speed Boost  
-- Freeze Timer  
+- Unlimited Sand   
 
 This project showcases how to find and manipulate game memory using Cheat Engine, Python, and pointers.  
 
