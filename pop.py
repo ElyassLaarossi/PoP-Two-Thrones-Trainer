@@ -50,7 +50,7 @@ def toggle_cheat(cheat_name):
     state = "Enabled" if cheats_enabled[cheat_name] else "Disabled"
     print(f"{cheat_name.capitalize()} {state}")
 
-    # Play activation or deactivation sound
+   
     try:
         if cheats_enabled[cheat_name]:
             pygame.mixer.music.load(toggle_sound)
@@ -112,42 +112,42 @@ def close_window():
     root.quit()
 
 root = tk.Tk()
-root.geometry("256x357")  # Window size
-root.overrideredirect(True)  # Remove default title bar and border
-root.attributes('-alpha', 0.9)  # Slightly transparent window (85% opacity)
+root.geometry("256x357")  
+root.overrideredirect(True) 
+root.attributes('-alpha', 0.9)  #transparent window
 
 canvas = tk.Canvas(root, width=256, height=357, highlightthickness=0, borderwidth=0)
 canvas.pack()
 
-# Load and set the background image (replace 'background.png' with your image path)
+
 try:
-    bg_image = Image.open("background.png")  # Update with your background image path
-    bg_image = bg_image.resize((256, 357), Image.Resampling.LANCZOS)  # Adjusted size to match window
+    bg_image = Image.open("background.png")  
+    bg_image = bg_image.resize((256, 357), Image.Resampling.LANCZOS)  
     bg_photo = ImageTk.PhotoImage(bg_image)
-    canvas.create_image(128, 178.5, image=bg_photo)  # Center the image (256/2, 357/2)
+    canvas.create_image(128, 178.5, image=bg_photo)  
 except Exception as e:
     print(f"Error loading background image: {e}")
 
 quit_button = tk.Button(canvas, text="quit", command=close_window, bg="#F44336", fg="white",
                         font=("Arial", 9, "bold"), width=6, height=1, activebackground="#F44336", highlightthickness=0)
-quit_button.place(x=203, y=332)  # Position in the bottom-right corner
+quit_button.place(x=203, y=332) 
 
 root.bind("<Button-1>", start_drag)
 root.bind("<B1-Motion>", on_drag)
 root.bind("<ButtonRelease-1>", stop_drag)
 
-# Play the initial sound at the start of the program
+
 try:
     pygame.mixer.music.load(initial_sound)
     pygame.mixer.music.play()
 except pygame.error as e:
     print(f"Error playing initial sound: {e}")
 
-# Start the modification in a separate thread
+
 thread = threading.Thread(target=modify_values, daemon=True)
 thread.start()
 
-# Start the key listening thread
+
 keyboard_thread = threading.Thread(target=listen_for_keys, daemon=True)
 keyboard_thread.start()
 
