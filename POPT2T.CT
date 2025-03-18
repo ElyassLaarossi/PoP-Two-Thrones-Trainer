@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"Health Values"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"Health"</Description>
+          <LastState Value="125" RealAddress="06D89370"/>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"POP3.exe"+005EBD78</Address>
+          <Offsets>
+            <Offset>2B0</Offset>
+            <Offset>48</Offset>
+            <Offset>4</Offset>
+            <Offset>18</Offset>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>36</ID>
+          <Description>"Max Health"</Description>
+          <LastState Value="125" RealAddress="06D8ACC0"/>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"POP3.exe"+005EBD78</Address>
+          <Offsets>
+            <Offset>1C00</Offset>
+            <Offset>48</Offset>
+            <Offset>4</Offset>
+            <Offset>18</Offset>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>55</ID>
+          <Description>"Boss Health"</Description>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"POP3.exe"+00604738</Address>
+          <Offsets>
+            <Offset>750</Offset>
+            <Offset>54C</Offset>
+            <Offset>53C</Offset>
+            <Offset>1C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"Sand Stuff"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"Sands"</Description>
+          <LastState Value="3" RealAddress="06D89DC8"/>
+          <Color>4080FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"POP3.exe"+005EBD78</Address>
+          <Offsets>
+            <Offset>D08</Offset>
+            <Offset>48</Offset>
+            <Offset>4</Offset>
+            <Offset>18</Offset>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"Max Sands"</Description>
+          <LastState Value="3" RealAddress="06D8A844"/>
+          <Color>4080FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"POP3.exe"+005EBD78</Address>
+          <Offsets>
+            <Offset>1784</Offset>
+            <Offset>48</Offset>
+            <Offset>4</Offset>
+            <Offset>18</Offset>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"Coords"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>000000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>57</ID>
+          <Description>"X"</Description>
+          <LastState Value="-258.495697" RealAddress="08ABE500"/>
+          <Color>008000</Color>
+          <VariableType>Float</VariableType>
+          <Address>"POP3.exe"+00A2DC68</Address>
+          <Offsets>
+            <Offset>30</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>58</ID>
+          <Description>"Y"</Description>
+          <LastState Value="364.1751709" RealAddress="08ABE504"/>
+          <Color>008000</Color>
+          <VariableType>Float</VariableType>
+          <Address>"POP3.exe"+00A2DC68</Address>
+          <Offsets>
+            <Offset>34</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>59</ID>
+          <Description>"Z"</Description>
+          <LastState Value="67.0175705" RealAddress="08ABE508"/>
+          <Color>008000</Color>
+          <VariableType>Float</VariableType>
+          <Address>"POP3.exe"+00A2DC68</Address>
+          <Offsets>
+            <Offset>38</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>50</ID>
+          <Description>"Camera-Horizontal "</Description>
+          <LastState Value="0.4999750555" RealAddress="00D28548"/>
+          <Color>008000</Color>
+          <VariableType>Float</VariableType>
+          <Address>POP3.exe+928548</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>51</ID>
+          <Description>"Camera-Vertical"</Description>
+          <LastState Value="0.1683309972" RealAddress="00D28554"/>
+          <Color>008000</Color>
+          <VariableType>Float</VariableType>
+          <Address>POP3.exe+928554</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>65</ID>
+      <Description>"Save Prompt"</Description>
+      <LastState Value="00000000" RealAddress="0718CE50"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>00E2AD60</Address>
+      <Offsets>
+        <Offset>F0</Offset>
+        <Offset>48</Offset>
+        <Offset>04</Offset>
+        <Offset>18</Offset>
+      </Offsets>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>18</Key>
+            <Key>83</Key>
+          </Keys>
+          <Value>FFFFFFFE</Value>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
